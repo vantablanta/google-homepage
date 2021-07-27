@@ -8,6 +8,7 @@
     border-radius: 50%;
     padding: 20px;
     margin-top: -25px;
+
 }
 .link1{
     float: left;
@@ -109,6 +110,7 @@ button{
     min-width: 54px;
     border: 1px solid transparent;
     margin: 20px;
+    font-family: 'Roboto';
 }
 button:hover{
     border-color: #dadce0;
@@ -121,11 +123,55 @@ button:hover{
     background-color: rgb(230, 227, 227);
     border: 2px solid rgb(230, 227, 227);
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
+    right: -10px;
     display: flex;
-    
+    flex-direction: row; 
 }
+.footer-links1{
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    padding-left: 20px;
+}
+.link5{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+.link6{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+.link7{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+.footer-links2{
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-top: 10px;
+    padding-left: 300px;
+}
+.link8{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+.link9{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+.link10{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+}
+
 
 
 @media screen 
@@ -145,12 +191,14 @@ button:hover{
       }
       #search{
         padding: 0;
-        margin-left: -660px;
+        margin-left: -650px;
         margin-top: 44px
       }
       .feelings{
           margin-left:520px ;
-
+      }
+      .footer-links2{
+        padding-left: 700px;
       }
 
       
